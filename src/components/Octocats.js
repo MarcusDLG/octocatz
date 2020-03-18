@@ -47,9 +47,9 @@ export class Octocats extends Component {
         alt: 'Terracottocat',
       },
       { name: 'Octocats', number: '110', url: Octocat, alt: 'Octocats' },
-      { name: 'Octocats', number: '110', url: Octocat, alt: 'Octocats' },
-      { name: 'Octocats', number: '110', url: Octocat, alt: 'Octocats' },
-      { name: 'Octocats', number: '110', url: Octocat, alt: 'Octocats' },
+      { name: 'Octocats', number: '111', url: Octocat, alt: 'Octocats' },
+      { name: 'Octocats', number: '112', url: Octocat, alt: 'Octocats' },
+      { name: 'Octocats', number: '113', url: Octocat, alt: 'Octocats' },
     ]
     return (
       <main>
