@@ -14,14 +14,42 @@ export class Octocats extends Component {
   render() {
     const cats = [
       { name: 'Adacats', number: '101', url: Adacats, alt: 'ada' },
-      { name: 'Brennatocat', number: '102', url: Brennatocat, alt: 'ada' },
-      { name: 'filmtocats', number: '103', url: filmtocats, alt: 'ada' },
-      { name: 'Fintechtocat', number: '104', url: Fintechtocat, alt: 'ada' },
-      { name: 'Octogatos', number: '106', url: Octogatos, alt: 'ada' },
-      { name: 'Puddle Jumper', number: '107', url: PuddleJumper, alt: 'ada' },
-      { name: 'Sentrytocat', number: '108', url: Sentrytocat, alt: 'ada' },
-      { name: 'Terracottocat', number: '109', url: Terracottocat, alt: 'ada' },
-      { name: 'Octocats', number: '110', url: Octocat, alt: 'ada' },
+      {
+        name: 'Brennatocat',
+        number: '102',
+        url: Brennatocat,
+        alt: 'Brennatocat',
+      },
+      { name: 'filmtocats', number: '103', url: filmtocats, alt: 'filmtocats' },
+      {
+        name: 'Fintechtocat',
+        number: '104',
+        url: Fintechtocat,
+        alt: 'Fintechtocat',
+      },
+      { name: 'Octogatos', number: '106', url: Octogatos, alt: 'Octogatos' },
+      {
+        name: 'Puddle Jumper',
+        number: '107',
+        url: PuddleJumper,
+        alt: 'Puddle Jumper',
+      },
+      {
+        name: 'Sentrytocat',
+        number: '108',
+        url: Sentrytocat,
+        alt: 'Sentrytocat',
+      },
+      {
+        name: 'Terracottocat',
+        number: '109',
+        url: Terracottocat,
+        alt: 'Terracottocat',
+      },
+      { name: 'Octocats', number: '110', url: Octocat, alt: 'Octocats' },
+      { name: 'Octocats', number: '110', url: Octocat, alt: 'Octocats' },
+      { name: 'Octocats', number: '110', url: Octocat, alt: 'Octocats' },
+      { name: 'Octocats', number: '110', url: Octocat, alt: 'Octocats' },
     ]
     return (
       <main>
