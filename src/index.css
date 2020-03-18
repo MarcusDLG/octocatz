@@ -1,5 +1,5 @@
 :root {
-  font: 16px / 1 sans-serif;
+  font: 16px / 1 -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
 
 html {
@@ -8,5 +8,145 @@ html {
 
 body {
   margin: 0;
-  min-height: 100%;
+  margin-top: 4rem;
+  padding: 0;
+  background-color: rgb(250, 251, 252);
+}
+
+header {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(250, 251, 252);
+  opacity: 0.8;
+}
+
+header img {
+  padding-top: 0.5rem;
+  width: auto;
+  height: 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+header li {
+  padding: 1rem;
+  margin: 0;
+  /* padding: .05rem; */
+}
+
+main {
+  display: grid;
+  grid-template-columns: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.octodexName {
+  color: black;
+}
+
+header a {
+  color: grey;
+  text-decoration: none;
+}
+
+.card {
+  margin: 0rem 1rem;
+  /* padding-right: 1rem; */
+  padding: 1rem;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.octocatPic {
+  border: 0.05rem solid rgb(207, 207, 206);
+  border-radius: 1rem;
+  width: 100%;
+  height: auto;
+}
+
+.cardDescription {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 1rem 0;
+}
+
+.cardDescription img {
+  margin: 0;
+  padding: 0;
+  height: 80%;
+  width: auto;
+}
+
+footer {
+  color: grey;
+  margin: 1rem;
+  padding: 1.5rem 0 2rem 0;
+  font-size: medium;
+}
+
+@media (min-width: 800px) {
+  header {
+    padding: 0;
+    margin: 0;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .cardDescription {
+    padding: 1rem 0 5rem 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  header {
+    padding: 0;
+    margin: 0;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .cardDescription {
+    padding: 1rem 0 5rem 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  header {
+    padding: 0;
+    margin: 0;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+  .cardDescription {
+    padding: 1rem 0 5rem 0;
+  }
 }
