@@ -7,22 +7,31 @@ export class Nav extends Component {
       <header>
         <nav>
           <ul>
-            <img class="headerImage" src={GitHubLarge} alt="Github Logo" />
+            <img className="headerImage" src={GitHubLarge} alt="Github Logo" />
             <li>
-              <a class="octodexName" href="">
+              <a
+                className="octodexName navLink"
+                href="https://octodex.github.com/"
+              >
                 Octodex
               </a>
             </li>
             <li>
-              <a href="">Home</a>
+              <a className="navLink" href="https://octodex.github.com/">
+                Home
+              </a>
             </li>
           </ul>
           <ul>
             <li>
-              <a href="">Faq</a>
+              <a className="navLink" href="https://octodex.github.com/">
+                Faq
+              </a>
             </li>
             <li>
-              <a href="">Follow Us on Twitter</a>
+              <a className="navLink" href="https://octodex.github.com/">
+                Follow Us on Twitter
+              </a>
             </li>
           </ul>
         </nav>

@@ -1,21 +1,21 @@
 import React, { Component } from 'react'
-import GitHubSmall from '../images/GitHubSmall.png'
+// import GitHubSmall from '../images/GitHubSmall.png'
 
 export class CatCard extends Component {
   render() {
     return (
       <div>
-        <section class="card">
+        <section className="card">
           <img
-            class="octocatPic"
+            className="octocatPic"
             src={this.props.imgUrl}
             alt={this.props.alt}
           />
-          <section class="cardDescription">
+          <section className="cardDescription">
             <p>
               {this.props.number} <strong>{this.props.name}</strong>
             </p>
-            <img src={GitHubSmall} alt="small github symbol" />
+            <img src={this.props.author} alt="small github symbol" />
           </section>
         </section>
       </div>
