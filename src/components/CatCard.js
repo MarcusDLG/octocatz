@@ -13,7 +13,7 @@ export class CatCard extends Component {
           />
           <section className="cardDescription">
             <p>
-              {this.props.number} <strong>{this.props.name}</strong>
+              {this.props.number}: <strong>{this.props.name}</strong>
             </p>
             <img src={this.props.author} alt="small github symbol" />
           </section>

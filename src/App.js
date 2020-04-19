@@ -13,7 +13,7 @@ class App extends Component {
     const resp = await axios.get('https://sdg-octodex.herokuapp.com')
     console.log(resp)
     this.setState({
-      allPets: resp.data,
+      allCats: resp.data.data,
     })
   }
   render() {
@@ -27,7 +27,7 @@ class App extends Component {
                 name={cat.name}
                 number={cat.number}
                 imgUrl={cat.image}
-                author={cat.authors.image}
+                author={cat.authors[0].image}
               />
             )
           })}
