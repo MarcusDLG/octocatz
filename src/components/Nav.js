@@ -13,7 +13,7 @@ export class Nav extends Component {
                 className="octodexName navLink"
                 href="https://octodex.github.com/"
               >
-                Octodex
+                Octocatz
               </a>
             </li>
             <li>
